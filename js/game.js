@@ -12,3 +12,8 @@ bg.src = "img/background.png"; // Аналогично
 fg.src = "img/foreground.png"; // Аналогично
 pipeUp.src = "img/pipeup.png"; // Аналогично
 pipeBottom.src = "img/pipebottom.png"; // Аналогично
+
+function drawCanvas() {
+  ctx.drawImage(bg, 0, 0);
+}
+
